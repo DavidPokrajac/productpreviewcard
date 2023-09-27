@@ -99,13 +99,13 @@ main .image-container picture {
     font-size: 0.9rem;
 }
 
-.product-name {
+.product-info .product-name {
     font-family: 'Fraunces', serif;
     font-size: 3rem;
     line-height: 3rem;
 }
 
-.add-to-cart {
+.product-info .add-to-cart {
     font-family: inherit;
     border: none;
     background: var(--dark-cyan);
@@ -118,7 +118,7 @@ main .image-container picture {
     font-size: 1.2rem;
 }
 
-.add-to-cart img {
+.product-info .add-to-cart img {
     display: inline-block;
     vertical-align: bottom;
     margin-right: 0.75rem;
@@ -127,7 +127,7 @@ main .image-container picture {
 @media (max-width: 375px) {
     main {
         flex-direction: column;
-        width: 90%;
+        width: 92%;
     }
 
     main .image-container {
@@ -170,7 +170,7 @@ main .image-container picture {
         font-size: 1rem;
     }
 
-    .add-to-cart {
+    .product-info .add-to-cart {
         font-size: 1rem;
     }
 }
